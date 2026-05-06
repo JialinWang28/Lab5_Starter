@@ -5,4 +5,6 @@ Name: Jialin Wang
 
 Partner: N/A
 
+1) no since sending a message requires multiple parts working together, e.g. ui, input box, send button, etc.. That would be better with an e2e test instead
 
+2) Yes since the 80 character rule is small and specific, and likely be written into a single function or an if statement. A unit test is fine for such simple issues
